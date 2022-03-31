@@ -1,0 +1,201 @@
+{{define "navbar"}}
+
+<nav class="navbar is-grey-light is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://webchest.io/">
+            <img id="navbar-logo" src="/assets/images/webchest-logo.png" width="auto" height="auto" alt="WebChest logo" title="WebChest logo"> 
+            <cutom class="ml-3 has-text-weight-bold has-text-primary is-size-4">WebChest</cutom>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        
+    </div>
+
+  <!-- DESKTOP NAVBAR -->
+  <div id="navbarBasicExampleDesktop" class="navbar-menu is-hidden-mobile">
+    <div class="navbar-start">      
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+        </a>
+
+        <div class="navbar-dropdown">
+            <a href="https://suggest.webchest.io/" class="navbar-item has-text-weight-semibold has-text-primary is-uppercase">
+                Suggest Tool
+            </a>
+            <a href="https://webchest.io/about" class="navbar-item has-text-weight-semibold is-uppercase">
+                About
+            </a>
+            <a href="https://webchest.io/announcements" class="navbar-item has-text-weight-semibold is-uppercase">
+                Announcements
+            </a>
+            <a href="https://blog.webchest.io/" class="navbar-item has-text-weight-semibold is-uppercase">
+                Blog
+            </a>
+            <a href="https://webchest.io/faq" class="navbar-item has-text-weight-semibold is-uppercase">
+                FAQ
+            </a>
+            <a href="https://contact.webchest.io/" class="navbar-item has-text-weight-semibold is-uppercase">
+                Contact
+            </a>            
+            <a href="https://webchest.io/privacy-policy" class="navbar-item has-text-weight-semibold is-uppercase">
+                Privacy Policy
+            </a>
+            <hr class="navbar-divider">
+            <a href="https://report.webchest.io/" class="navbar-item has-text-weight-semibold has-text-danger is-uppercase">
+                Report Issue
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <a class="navbar-item" href="https://webchest.io/">
+        <custom class="has-text-grey-light has-text-weight-semibold is-size-4 is-hidden-mobile">QR CODE GENERATOR</custom>
+    </a>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control mr-5">
+            <a class="button is-ghost has-text-primary" href="https://webchest.io/">
+              <span class="icon">
+                <i class="fas fa-search fa-2x"></i>
+              </span>              
+            </a>
+          </p>
+          <p class="control mr-5">
+            <a class="button is-ghost has-text-primary" href="https://blog.webchest.io/">
+              <span class="icon">
+                <i class="fas fa-feather-alt fa-2x"></i>
+              </span>              
+            </a>
+          </p>
+          <p class="control mr-5">
+            <a class="button is-ghost has-text-primary" href="https://webchest.io/announcements">
+              <span class="icon">
+                <i class="fas fa-bullhorn fa-2x"></i>
+              </span>              
+            </a>
+          </p>
+          <p class="control mr-1">
+            <a class="button is-ghost has-text-grey-light" href="#">
+              <span class="icon">
+                <i class="fas fa-user-astronaut fa-2x" disabled></i>
+              </span>              
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- MOBILE NAVBAR -->
+    <div id="navbarBasicExample" class="navbar-menu is-hidden-desktop">
+    <div class="navbar-start">     
+        <div class="navbar-item">
+            <div class="field is-grouped" style="margin-top: 10%;">
+                <p class="control" style="margin-left:5%;">
+                    <a class="button is-ghost has-text-primary" href="https://webchest.io/">
+                    <span class="icon">
+                        <i class="fas fa-search fa-2x"></i>
+                    </span>              
+                    </a>
+                </p>
+                <p class="control mr-5" style="margin-left:10%;">
+                    <a class="button is-ghost has-text-primary" href="https://blog.webchest.io/">
+                    <span class="icon">
+                        <i class="fas fa-feather-alt fa-2x"></i>
+                    </span>              
+                    </a>
+                </p>
+                <p class="control" style="margin-left:10%;">
+                    <a class="button is-ghost has-text-primary" href="https://webchest.io/announcements">
+                    <span class="icon">
+                        <i class="fas fa-bullhorn fa-2x"></i>
+                    </span>              
+                    </a>
+                </p>
+                <p class="control" style="margin-left:10%;">
+                    <a class="button is-ghost has-text-grey-light" href="#">
+                        <span class="icon">
+                            <i class="fas fa-user-astronaut fa-2x" disabled></i>
+                        </span>              
+                    </a>
+                    <br>
+                    <span class="tag is-rounded" style="margin-left: -30%;">
+                     COMING SOON
+                    </span>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <a href="https://suggest.webchest.io/" class="navbar-item has-text-weight-semibold has-text-primary is-uppercase">
+            Suggest Tool
+        </a>
+        <a href="https://webchest.io/about" class="navbar-item has-text-weight-semibold is-uppercase">
+            About
+        </a>
+        <a href="https://webchest.io/announcements" class="navbar-item has-text-weight-semibold is-uppercase">
+            Announcements
+        </a>
+        <a href="https://blog.webchest.io/" class="navbar-item has-text-weight-semibold is-uppercase">
+            Blog
+        </a>
+        <a href="https://webchest.io/faq" class="navbar-item has-text-weight-semibold is-uppercase">
+            FAQ
+        </a>
+        <a href="https://contact.webchest.io/" class="navbar-item has-text-weight-semibold is-uppercase">
+            Contact
+        </a>            
+        <a href="https://webchest.io/privacy-policy" class="navbar-item has-text-weight-semibold is-uppercase">
+            Privacy Policy
+        </a>
+        <hr class="navbar-divider">
+        <a href="https://report.webchest.io/" class="navbar-item has-text-weight-semibold has-text-danger is-uppercase">
+            Report Issue
+        </a>
+    </div>
+
+    <div class="navbar-end">
+        <!-- INSERT END ITEM HERE -->
+    </div>
+    
+  </div>
+</nav>
+<br>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+            });
+            });
+        }
+
+    });
+</script>
+
+{{end}}
